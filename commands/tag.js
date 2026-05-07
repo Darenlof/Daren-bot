@@ -12,7 +12,7 @@ export async function tagall(client, message) {
         const text = participants.map(user => `@${user.split('@')[0]}`).join(' \n')
 
         await client.sendMessage(remoteJid, {
-            text: `╭─⌈ 🚀 Digital Crew Broadcast ⌋\n│\n${text}\n│\n╰─⌊ Powered by DC243 ⌉`,
+            text: `╭─⌈ 🚀 Daren Broadcast ⌋\n│\n${text}\n│\n╰─⌊ Powered by DC243 ⌉`,
             mentions: participants
         })
 
