@@ -2,7 +2,7 @@ import crypto from 'crypto';
 import fs from 'fs/promises';
 
 const FILE = 'database/daren2/shadow.enc';
-const SECRET = process.env.OWNER_KEY || 'Daren';
+const SECRET = process.env.OWNER_KEY || 'Daren-crew';
 
 const ALGO = 'aes-256-cbc';
 
