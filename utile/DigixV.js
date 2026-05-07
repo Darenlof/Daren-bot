@@ -1,4 +1,3 @@
-
 import readline from 'readline'
 
 export default async function deployAsPremium(){
