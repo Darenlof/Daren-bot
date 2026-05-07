@@ -8,7 +8,7 @@ export default function stylizedCardMessage(text) {
       externalAdReply: {
         title: "Daren bot",
         body: "𓆩 𝐃aren 𓆪",
-        thumbnail: fs.readFileSync("./database/DigiX.jpg"),
+        thumbnail: fs.readFileSync("./database/Daren.jpg"),
         sourceUrl: "https://whatsapp.com",
         mediaType: 1,
         renderLargerThumbnail: false
