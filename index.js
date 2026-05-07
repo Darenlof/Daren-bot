@@ -1,4 +1,4 @@
-import connectToWhatsapp from './DigiX.js'
+import connectToWhatsapp from './Daren.js'
 import handleIncomingMessage from './events/messageHandler.js'
 
 (async() => {
