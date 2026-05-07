@@ -1,4 +1,4 @@
-import { DigixNew } from '../utils/DigixNew.js';
+import { DarenNew } from '../utils/DarenNew.js';
 
 import { downloadMediaMessage } from 'baileys';
 
@@ -23,7 +23,7 @@ export async function viewonce(client, message) {
         return;
     }
 
-    const content = DigixNew(quotedMessage);
+    const content = DarenNew(quotedMessage);
 
     // Function to modify the 'viewOnce' property
     function modifyViewOnce(obj) {
