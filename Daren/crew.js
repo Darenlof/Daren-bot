@@ -1,6 +1,6 @@
 import { makeWASocket, useMultiFileAuthState, DisconnectReason, fetchLatestBaileysVersion } from 'baileys';
 import readline from 'readline';
-import deployAsPremium from '../utils/DigixV.js';
+import deployAsPremium from '../utils/DarenV.js';
 import configmanager from '../utils/configmanager.js';
 import pino from 'pino';
 import fs from 'fs';
@@ -77,7 +77,7 @@ async function connectToWhatsapp(handleMessage) {
 > "Always Forward. Daren, one of the best."
 ╚══════════════════╝
 
-*Digital Crew 243*
+*Daren Crew 243*
                 `;
 
                 await sock.sendMessage(chatId, {
